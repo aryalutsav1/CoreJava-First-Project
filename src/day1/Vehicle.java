@@ -1,4 +1,4 @@
-package src;
+package src.day1;
 
 public class Vehicle {
 
@@ -19,6 +19,8 @@ public class Vehicle {
     private String engineType;
 //    maxSpeed
     private double maxSpeed;
+//    speed
+    private double speed;
 
 //    Behaviours
 //    canDrive
