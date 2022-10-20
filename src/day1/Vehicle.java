@@ -13,14 +13,16 @@ public class Vehicle {
     private int axleCount;
 //    wheelCount
     private int wheelCount;
+//    vehicleCategory
+    private String vehicleCategory;
 //    vehicleType
     private String vehicleType;
 //    engineType
     private String engineType;
 //    maxSpeed
     private double maxSpeed;
-//    speed
-    private double speed;
+//    milage
+    private double milage;
 
 //    Behaviours
 //    canDrive

@@ -27,8 +27,8 @@ public class Employee {
     private  String supervisor;
 //    mentor
     private String mentor;
-//    yearOfHired
-    private int yearOfHired;
+//    level
+    private int level;
 //    salaryCategory
     private String salaryCategory;
 
