@@ -1,4 +1,4 @@
-package src.day1;
+package src.day1.bank;
 
 public class BankAccount {
 //    bankName
@@ -11,17 +11,18 @@ public class BankAccount {
     private long accountNo;
 //    accountType
     private String accountType;
-//    accHolderDOB
-    private String accHolderDOB;
-//    accHolderSSN;
-    private String SSN;
-//    email
-    private String email;
-//    contactNumber
-    private String contactNumber;
-//    address
-    private String address;
-//    balance
+
+ private String CustomerInfo;
+
+    public String getCustomerInfo() {
+        return CustomerInfo;
+    }
+
+    public void setCustomerInfo(String customerInfo) {
+        CustomerInfo = customerInfo;
+    }
+
+    //    balance
     private double balance;
 //    interestRate
     private double interestRate;
@@ -73,46 +74,6 @@ public class BankAccount {
 
     public void setAccountType(String accountType) {
         this.accountType = accountType;
-    }
-
-    public String getAccHolderDOB() {
-        return accHolderDOB;
-    }
-
-    public void setAccHolderDOB(String accHolderDOB) {
-        this.accHolderDOB = accHolderDOB;
-    }
-
-    public String getSSN() {
-        return SSN;
-    }
-
-    public void setSSN(String SSN) {
-        this.SSN = SSN;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getContactNumber() {
-        return contactNumber;
-    }
-
-    public void setContactNumber(String contactNumber) {
-        this.contactNumber = contactNumber;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public double getBalance() {
