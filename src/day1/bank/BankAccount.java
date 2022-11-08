@@ -1,40 +1,22 @@
 package src.day1.bank;
 
 public class BankAccount {
-//    bankName
+    //    bankName
     private String bankName;
-//    branch
+    //    branch
     private String branch;
-//    accountHolderName
+    //    accountHolderName
     private String accountHolderName;
-//    accountNo
+    //    accountNo
     private long accountNo;
-//    accountType
+    //    accountType
     private String accountType;
 
- private String CustomerInfo;
+    private CustomerInfo CustomerInfo;
 
-    public String getCustomerInfo() {
-        return CustomerInfo;
-    }
+    private CustomerAddress CustoerAddress;
 
-    public void setCustomerInfo(String customerInfo) {
-        CustomerInfo = customerInfo;
-    }
-
-    //    balance
     private double balance;
-//    interestRate
-    private double interestRate;
-
-//    Behaviours
-//    checkBalance
-//    deposit
-//    withdraw
-//    transfer
-//    applyCreditCare
-//    updateContactInfo
-
 
     public String getBankName() {
         return bankName;
@@ -76,6 +58,14 @@ public class BankAccount {
         this.accountType = accountType;
     }
 
+    public CustomerInfo getCustomerInfo() {
+        return CustomerInfo;
+    }
+
+    public void setCustomerInfo(CustomerInfo customerInfo) {
+        CustomerInfo = customerInfo;
+    }
+
     public double getBalance() {
         return balance;
     }
@@ -84,11 +74,16 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public double getInterestRate() {
-        return interestRate;
+    public CustomerAddress getCustoerAddress() {
+        return CustoerAddress;
     }
 
-    public void setInterestRate(double interestRate) {
-        this.interestRate = interestRate;
+    public void setCustoerAddress(CustomerAddress custoerAddress) {
+        CustoerAddress = custoerAddress;
     }
+
+
+
+
+
 }
