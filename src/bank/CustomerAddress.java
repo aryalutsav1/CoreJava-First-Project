@@ -1,4 +1,4 @@
-package src.day1.bank;
+package src.bank;
 
 public class CustomerAddress {
     private String street1;

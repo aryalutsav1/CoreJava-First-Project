@@ -1,4 +1,4 @@
-package src.day1.inheritance_polymorphism;
+package src.inheritance_polymorphism;
 
 public class Car extends Automobile {
     private String engineType;

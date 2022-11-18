@@ -1,4 +1,4 @@
-package src.day1;
+package src;
 
 public class Employee {
 //    States
